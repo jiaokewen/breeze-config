@@ -23,10 +23,13 @@ spring:
         testOnReturn: false
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
-  type-aliases-package: com.qingfeng.breeze.log.model  # 注意：对应实体类的路径
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.qingfeng.breeze.log.model
 
 #pagehelper分页插件
 pagehelper:
