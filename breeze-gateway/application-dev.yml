@@ -4,7 +4,7 @@ server:
 zuul:
   routes:
     breeze-log:
-      path: /breeze-log/**
+      path: /client/**
       serviceId: breeze-log
 security:
   basic:
