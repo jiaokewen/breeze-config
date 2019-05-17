@@ -1,6 +1,6 @@
 server:
   port: 8003
-  selvlet:
+  servlet:
     contextPath: auth
     
 spring:
