@@ -3,9 +3,9 @@ server:
 
 zuul:
   routes:
-    breeze-log:
+    client-a:
       path: /client/**
-      serviceId: breeze-log
+      serviceId: client-a
 security:
   basic:
     enabled: false
