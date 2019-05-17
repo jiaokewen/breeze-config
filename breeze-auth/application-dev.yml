@@ -1,5 +1,7 @@
 server:
   port: 8003
+  selvlet:
+    contextPath: auth
     
 spring:
     datasource:
