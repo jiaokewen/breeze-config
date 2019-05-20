@@ -9,6 +9,9 @@ zuul:
     breeze-user:
       path: /breeze-user/**
       serviceId: breeze-user
+    breeze-auth:
+      path: /breeze-auth/**
+      serviceId: breeze-auth
 security:
   basic:
     enabled: false
