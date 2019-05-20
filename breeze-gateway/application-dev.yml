@@ -6,6 +6,9 @@ zuul:
     breeze-log:
       path: /breeze-log/**
       serviceId: breeze-log
+    breeze-user:
+      path: /breeze-user/**
+      serviceId: breeze-user
 security:
   basic:
     enabled: false
