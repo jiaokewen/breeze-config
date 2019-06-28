@@ -12,6 +12,9 @@ zuul:
     breeze-auth:
       path: /breeze-auth/**
       serviceId: breeze-auth
+    breeze-file:
+      path: /breeze-file/**
+      serviceId: breeze-file
 security:
   basic:
     enabled: false
